@@ -111,7 +111,7 @@ const Contact = () => {
           
           <ContactModal
             name="LinkedIn"
-            url="https://www.linkedin.com/in/hrithik-roshan-65145718b/"
+            url="https://www.linkedin.com/in/hrithik-roshan-65145718b"
             desc="View LinkedIn profile"
           />
           <ContactModal
