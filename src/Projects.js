@@ -2,6 +2,7 @@ import { Box, Typography } from "@mui/material";
 import Heading from "./components/heading";
 import { useMediaQuery } from "@mui/material";
 import Navbar from "./components/navbar";
+import sqlbot from "./images/sqlbot.png"
 import myfolio from "./images/myfolio.png";
 import mvr from "./images/mvr.png";
 import fashioned from "./images/fashioned.png";
@@ -30,8 +31,16 @@ const Projects = () => {
       >
         <Fade cascade damping={0.1}>
           <ProjectComponent
+            title=" 🤖 SQLBOT – Chat with Your Database "
+            description='SQLBOT is an AI-powered assistant that lets you chat with your SQLite or MySQL database using natural language. You can ask questions like "Show all customers from Canada" or just say "Hi" — and it responds instantly, like a smart database companion.'
+            tech="Python, Streamlit, LangChain, Groq API, SQLAlchemy, SQLite/MySQL."
+            img={sqlbot}
+            link="https://github.com/hrithikqw/SQLBOT"
+            isNotMobile={isNotMobile}
+          />
+          <ProjectComponent
             title=" StockSentinel: AI-Powered Market Sentiment Engine "
-            description="Currenetly working on An intelligent system that analyzes news, tweets, and earnings calls to generate real-time stock sentiment heatmaps."
+            description="Built An intelligent system that analyzes news, tweets, and earnings calls to generate real-time stock sentiment heatmaps."
             tech="Python, HuggingFace Transformers, FastAPI, PostgreSQL, Plotly, Docker."
             img={myfolio}
             link="https://github.com/hrithikqw"
