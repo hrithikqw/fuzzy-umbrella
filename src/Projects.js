@@ -2,8 +2,8 @@ import { Box, Typography } from "@mui/material";
 import Heading from "./components/heading";
 import { useMediaQuery } from "@mui/material";
 import Navbar from "./components/navbar";
-import sqlbot from "./images/sqlbot.png"
-import myfolio from "./images/myfolio.png";
+import sqlbot from "./images/sqlbot.png";
+// Removed unused image: myfolio
 import mvr from "./images/mvr.png";
 import fashioned from "./images/fashioned.png";
 import transactions from "./images/transactions.png";
@@ -38,6 +38,8 @@ const Projects = () => {
             link="https://github.com/hrithikqw/SQLBOT"
             isNotMobile={isNotMobile}
           />
+
+          {/* 
           <ProjectComponent
             title=" StockSentinel: AI-Powered Market Sentiment Engine "
             description="Built An intelligent system that analyzes news, tweets, and earnings calls to generate real-time stock sentiment heatmaps."
@@ -46,11 +48,11 @@ const Projects = () => {
             link="https://github.com/hrithikqw"
             isNotMobile={isNotMobile}
           />
+          */}
 
           <ProjectComponent
             title="Credit Card Fraud Detection "
-            description="Developed backend for a Credit Card Fraud Detection system using ML with pandas and scikit-learn to identify
-            fraud in real time, improving security and reducing risk"
+            description="Developed backend for a Credit Card Fraud Detection system using ML with pandas and scikit-learn to identify fraud in real time, improving security and reducing risk"
             tech="Python, ML Libraries"
             img={fashioned}
             link="https://github.com/hrithikqw"
@@ -118,12 +120,7 @@ const Projects = () => {
           </Box>
 
           {/* Single separator after custom ChatME block */}
-          <Box
-            width="100%"
-            borderTop="1px solid grey"
-            mt="2rem"
-            mb="1rem"
-          />
+          <Box width="100%" borderTop="1px solid grey" mt="2rem" mb="1rem" />
 
           <ProjectComponent
             title="Expense Tracker"
