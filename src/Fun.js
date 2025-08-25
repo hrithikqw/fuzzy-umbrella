@@ -30,6 +30,7 @@ const Fun = () => {
           mb="2rem"
           mx="auto"
         >
+          {/* Education */}
           <Box display="flex" alignItems="center" mb={3}>
             <SchoolIcon sx={{ fontSize: 40, color: "#11D6F4", mr: 2 }} />
             <Fade bottom>
@@ -56,6 +57,7 @@ const Fun = () => {
             </Fade>
           </Box>
 
+          {/* Coursework */}
           <Fade bottom cascade>
             <Box
               mb={2}
@@ -99,7 +101,7 @@ const Fun = () => {
             </Box>
           </Fade>
           
-          {/* Compact Certifications Section */}
+          {/* Certifications */}
           <Fade bottom>
             <Box
               mb={2}
@@ -126,22 +128,26 @@ const Fun = () => {
                 gridTemplateColumns={isNotMobile ? "repeat(3, 1fr)" : "1fr"}
                 gap={2}
               >
+                {/* MongoDB */}
                 <Box
                   p={1}
                   backgroundColor="#090A18"
                   border="1px solid #11D6F44F"
                   borderRadius="0.4rem"
                 >
-                  <Typography
-                    style={{
-                      fontFamily: "Poppins",
-                      color: "#11D6F4",
-                      fontWeight: 500,
-                      fontSize: "0.9rem"
-                    }}
-                  >
-                  MongoDB
-                   </Typography>
+                  <a href="https://drive.google.com/drive/folders/1ElmENCmxehmptJR7NSwMky-0dRJEIcRQ?usp=drive_link" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+                    <Typography
+                      style={{
+                        fontFamily: "Poppins",
+                        color: "#11D6F4",
+                        fontWeight: 500,
+                        fontSize: "0.9rem",
+                        cursor: "pointer"
+                      }}
+                    >
+                      MongoDB
+                    </Typography>
+                  </a>
                   <Typography
                     style={{
                       fontFamily: "Poppins",
@@ -153,22 +159,26 @@ const Fun = () => {
                   </Typography>
                 </Box>
                 
+                {/* Machine Learning */}
                 <Box
                   p={1}
                   backgroundColor="#090A18"
                   border="1px solid #11D6F44F"
                   borderRadius="0.4rem"
                 >
-                  <Typography
-                    style={{
-                      fontFamily: "Poppins",
-                      color: "#11D6F4",
-                      fontWeight: 500,
-                      fontSize: "0.9rem"
-                    }}
-                  >
-                    Machine Learning
-                  </Typography>
+                  <a href="https://drive.google.com/drive/folders/1ElmENCmxehmptJR7NSwMky-0dRJEIcRQ?usp=drive_link" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+                    <Typography
+                      style={{
+                        fontFamily: "Poppins",
+                        color: "#11D6F4",
+                        fontWeight: 500,
+                        fontSize: "0.9rem",
+                        cursor: "pointer"
+                      }}
+                    >
+                      Machine Learning
+                    </Typography>
+                  </a>
                   <Typography
                     style={{
                       fontFamily: "Poppins",
@@ -180,22 +190,26 @@ const Fun = () => {
                   </Typography>
                 </Box>
                 
+                {/* Data Analysis with Python */}
                 <Box
                   p={1}
                   backgroundColor="#090A18"
                   border="1px solid #11D6F44F"
                   borderRadius="0.4rem"
                 >
-                  <Typography
-                    style={{
-                      fontFamily: "Poppins",
-                      color: "#11D6F4",
-                      fontWeight: 500,
-                      fontSize: "0.9rem"
-                    }}
-                  >
-                    Data Analysis with Python
-                  </Typography>
+                  <a href="https://drive.google.com/drive/folders/1ElmENCmxehmptJR7NSwMky-0dRJEIcRQ?usp=drive_link" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+                    <Typography
+                      style={{
+                        fontFamily: "Poppins",
+                        color: "#11D6F4",
+                        fontWeight: 500,
+                        fontSize: "0.9rem",
+                        cursor: "pointer"
+                      }}
+                    >
+                      Data Analysis with Python
+                    </Typography>
+                  </a>
                   <Typography
                     style={{
                       fontFamily: "Poppins",
@@ -204,12 +218,13 @@ const Fun = () => {
                     }}
                   >
                     Cognitiveclass
-                    </Typography>
+                  </Typography>
                 </Box>
               </Box>
             </Box>
           </Fade>
           
+          {/* Achievements */}
           <Fade bottom>
             <Box
               p={2}
@@ -258,7 +273,7 @@ const Fun = () => {
                       fontSize: "0.8rem",
                     }}
                   >
-                Developed An Indian Sign Language Recognition system using OpenCV.
+                    Developed An Indian Sign Language Recognition system using OpenCV.
                   </Typography>
                 </Box>
                 
@@ -288,60 +303,6 @@ const Fun = () => {
                     FinTech solution for currency identification for the visually impaired using AI and computer vision.
                   </Typography>
                 </Box>
-                
-               {/*  <Box
-                  p={1}
-                  backgroundColor="#090A18"
-                  border="1px solid #11D6F44F"
-                  borderRadius="0.4rem"
-                >
-                  <Typography
-                    style={{
-                      fontFamily: "Poppins",
-                      color: "#11D6F4",
-                      fontWeight: 500,
-                      fontSize: "0.9rem"
-                    }}
-                  >
-                    Open Source Contributor
-                  </Typography>
-                  <Typography
-                    style={{
-                      fontFamily: "Poppins",
-                      color: "white",
-                      fontSize: "0.8rem",
-                    }}
-                  >
-                    Actively contributing to open-source projects on GitHub, with upcoming contributions to GSoC.
-                  </Typography>
-                </Box>
-                
-                <Box
-                  p={1}
-                  backgroundColor="#090A18"
-                  border="1px solid #11D6F44F"
-                  borderRadius="0.4rem"
-                >
-                  <Typography
-                    style={{
-                      fontFamily: "Poppins",
-                      color: "#11D6F4",
-                      fontWeight: 500,
-                      fontSize: "0.9rem"
-                    }}
-                  >
-                   Hackathons & Event Participations
-                  </Typography>
-                  <Typography
-                    style={{
-                      fontFamily: "Poppins",
-                      color: "white",
-                      fontSize: "0.8rem",
-                    }}
-                  >
-                    Participated in various hackathons and workshops, representing my institution in external programs.
-                  </Typography>
-                </Box> */}
               </Box>
             </Box>
           </Fade>

@@ -51,7 +51,6 @@ const HireMe = () => {
           <Typography
             sx={{ fontFamily: "Poppins", color: "#EEE", fontStyle: 'italic', mb: 3 }}
           >
-            Interested in my startup idea? Let’s build the next revolutionary digital asset tokens together!
           </Typography>
         </Paper>
       </Fade>

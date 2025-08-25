@@ -3,6 +3,8 @@ import Heading from "./components/heading";
 import { useMediaQuery } from "@mui/material";
 import Navbar from "./components/navbar";
 import sqlbot from "./images/sqlbot.png";
+import invoice from "./images/invoice.png";
+
 // Removed unused image: myfolio
 import mvr from "./images/mvr.png";
 import fashioned from "./images/fashioned.png";
@@ -28,7 +30,18 @@ const Projects = () => {
         flexDirection={"column"}
         gap="2rem"
         mb="10rem"
-      >
+      >{
+          <ProjectComponent
+            title=" InvoiceGuard – Smart Invoice & Warranty Tracker  "
+            description="InvoiceGuard helps you store, manage, and track invoices and warranties with ease. Upload product images and invoice PDFs, log warranty periods, and keep everything organized in one place — beautifully designed with a modern UI.
+
+You’ll never forget a warranty expiry again."
+            tech="Python, HuggingFace Transformers, FastAPI, PostgreSQL, Plotly, Docker."
+            img={invoice}
+            link="https://github.com/hrithikqw"
+            isNotMobile={isNotMobile}
+          />
+          }
         <Fade cascade damping={0.1}>
           <ProjectComponent
             title=" 🤖 SQLBOT – Chat with Your Database "

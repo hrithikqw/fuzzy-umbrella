@@ -17,7 +17,7 @@ const Exp = () => {
       <Box mt="3rem" maxWidth={"80%"} ml="auto" mr="auto">
         <Fade cascade damping={0.5}>
           {/* GeoLedger */}
-          <Box border="1px solid #13BAD4" mb="2rem">
+         {/*  <Box border="1px solid #13BAD4" mb="2rem">
             <Box
               display="flex"
               flexDirection={isNotMobile ? "row" : "column"}
@@ -78,7 +78,8 @@ const Exp = () => {
                 one-click verification.
               </Typography>
             </Box>
-          </Box>
+          </Box> 
+          */}
 
           {/* Zillion Technologies */}
           <Box border="1px solid #13BAD4" mb="2rem">
@@ -104,7 +105,7 @@ const Exp = () => {
                 fontWeight={"400"}
                 fontStyle={"italic"}
               >
-                June 2024 - Present
+                June 2024 - August 2024
               </Typography>
             </Box>
 
@@ -133,11 +134,7 @@ const Exp = () => {
                 backgroundColor="#07091B"
                 fontSize={"15px"}
               >
-                Currently working on a smart auto-labeling pipeline using
-                machine learning and large language models (LLMs) to label raw
-                data, and on fine-tuning transformer-based models to generate
-                auto labels for multimodal datasets.
-              </Typography>
+I worked on developing an AI-powered pipeline to automatically label raw multimodal data (text, images, audio, and video), enabling intelligent and context-aware categorization without predefined labels. I also worked on building a dynamic JSON fetcher system where JSON files generated in Amazon S3 could be queried in a structured way. In this solution, users could upload a custom schema, and the system would parse the JSON and return results strictly in the format defined by the uploaded schema, ensuring flexibility and accuracy in data retrieval.              </Typography>
             </Box>
           </Box>
 
@@ -194,16 +191,7 @@ const Exp = () => {
                 backgroundColor="#07091B"
                 fontSize={"15px"}
               >
-                During my internship, I contributed significantly to front-end
-                development and business logic implementation for an
-                international car dealership's inventory management system built
-                with React Native. My responsibilities included developing
-                features for efficient real-time inventory tracking and stock
-                management, expense management with detailed reporting, and
-                seamless media uploads. Additionally, I collaborated closely
-                with the development team to integrate real-time updates and
-                business logic, ensuring accurate, responsive stock management
-                and an enhanced, user-friendly experience for dealership staff.
+              During my internship, I contributed to the development of a full-stack web application designed for an international car dealership’s inventory management system. I worked on both the front-end development and business logic implementation, where my responsibilities included building responsive user interfaces, ensuring real-time tracking of vehicle stock, and optimizing workflows for dealership staffs.
               </Typography>
             </Box>
           </Box>
