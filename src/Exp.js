@@ -3,7 +3,6 @@ import Heading from "./components/heading";
 import Navbar from "./components/navbar";
 import nodebrew from "./images/nodebrew.png";
 import zillion from "./images/zillion.jpg";
-import fit from "./images/logo.png";
 import { Fade } from "react-awesome-reveal";
 import { useMediaQuery } from "@mui/material";
 
