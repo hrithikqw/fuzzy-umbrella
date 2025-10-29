@@ -120,6 +120,11 @@ const Contact = () => {
             desc="View GitHub profile"
           />
           <ContactModal
+            name="Leetcode"
+            url="https://leetcode.com/u/hrithikm485/"
+            desc="View Leetcode profile"
+          />
+          <ContactModal
             name="Hugging Face"
             url="https://huggingface.co"
             desc="View Hugging Face"

@@ -36,7 +36,7 @@ const Projects = () => {
             description="InvoiceGuard helps you store, manage, and track invoices and warranties with ease. Upload product images and invoice PDFs, log warranty periods, and keep everything organized in one place — beautifully designed with a modern UI.
 
 You’ll never forget a warranty expiry again."
-            tech="Python, HuggingFace Transformers, FastAPI, PostgreSQL, Plotly, Docker."
+            tech="React, Material UI,Node.js, JavaScript, Supabase (Auth, Database, Storage)"
             img={invoice}
             link="https://github.com/hrithikqw"
             isNotMobile={isNotMobile}
